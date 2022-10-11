@@ -2,27 +2,44 @@
 Es una aplicación angular, creada por el desarrollador Keiler Mora, que simula un pokex y esta aplicación donde puede ser vista en vivo a traves del enlace https://keilermora.github.io/pokedex-angular/
 
 
-# Prerequisites
+# Prerequisitos
 
-### Frontend
 1. [Git](https://git-scm.com/downloads)
 2. [Visual Studio Code](https://code.visualstudio.com/download)
 3. [Nodejs](https://nodejs.org/en/download/)
 4. [AngularCLI](https://angular.io/guide/setup-local)
 
-# Install & Run
+# Instalar & Ejecutar
 1. Descargar el codigo fuente del proyecto de la carpeta **"sistemas-distribuidos\poke-dex-lab\source\pokedex-angular\pokedex-angular.zip"**
-2. Luego de haber descargado el codigo fuente, en el sistema operativo Windows abrir la consola CMD o en su defecto ejecutar **"WIN + R"** y colocar el comando **"CMD"**
-2. Instalar las dependencias del proyecto con el siguiente comando:
+2. Descomprime el archivo **pokedex-angular.zip**
+3. Luego de descomprimir el archivo, si estás usando sistema operativo Windows, ejecuta las siguientes teclas **"WIN + R"** y colocar el comando **"CMD"**
+4. Dentro de la consola ejecuta el comando
+		
+        cd "sistemas-distribuidos\poke-dex-lab\source\pokedex-angular\"
+5. Luego instala las dependencias del proyecto con el siguiente comando:
 		
         npm install
-4. Para ejecutar el proyecto usa el siguiente comando:
+6. Ejecuta el proyecto usando el comando:
     
         npm start
+7. Abre cualquier navegador web y navega en la url http://localhost:4200/
 	
 
-
-
+# Instalar & desplegar
+1. Descargar el codigo fuente del proyecto de la carpeta **"sistemas-distribuidos\poke-dex-lab\source\pokedex-angular\pokedex-angular.zip"**
+2. Descomprime el archivo **pokedex-angular.zip**
+3. Luego de descomprimir el archivo, si estás usando sistema operativo Windows, ejecuta las siguientes teclas **"WIN + R"** y colocar el comando **"CMD"**
+4. Dentro de la consola ejecuta el comando
+		
+        cd "sistemas-distribuidos\poke-dex-lab\source\pokedex-angular\"
+5. Luego instala las dependencias del proyecto con el siguiente comando:
+		
+        npm install
+6. Crea la carpeta de despliegue usando el comando:
+    
+        npm run build
+7. Al finalizar la ejecución del comando anterior, se creará dentro de la carpeta **\pokedex-angular** una subcarpeta llamada **dist\pokedex-angular**	
+8. Todo el contenido de la subcarpeta **dist\pokedex-angular** está lista para ser desplegada a cualquier server.
 
 ## Referencias
 [Keiler Mora](https://github.com/keilermora)
