@@ -1,5 +1,5 @@
 # Pokédex Angular
-Es una aplicación angular creada por el desarrollador Keiler Mora donde puede ser vista en vivo a traves del enlace https://keilermora.github.io/pokedex-angular/
+Es una aplicación angular, creada por el desarrollador Keiler Mora, que simula un pokex y esta aplicación donde puede ser vista en vivo a traves del enlace https://keilermora.github.io/pokedex-angular/
 
 
 # Prerequisites
@@ -11,8 +11,8 @@ Es una aplicación angular creada por el desarrollador Keiler Mora donde puede s
 4. [AngularCLI](https://angular.io/guide/setup-local)
 
 # Install & Run
-1. Descargar el codigo fuente del proyecto de la carpeta "sistemas-distribuidos\poke-dex-lab\source\pokedex-angular"
-2. Luego de haber descargado el codigo fuente, en el sistema operativo Windows abrir la consola CMD o en su defecto ejecutar "WIN + R" y colocar el comando "CMD" 
+1. Descargar el codigo fuente del proyecto de la carpeta **"sistemas-distribuidos\poke-dex-lab\source\pokedex-angular\pokedex-angular.zip"**
+2. Luego de haber descargado el codigo fuente, en el sistema operativo Windows abrir la consola CMD o en su defecto ejecutar **"WIN + R"** y colocar el comando **"CMD"**
 2. Instalar las dependencias del proyecto con el siguiente comando:
 		
         npm install
