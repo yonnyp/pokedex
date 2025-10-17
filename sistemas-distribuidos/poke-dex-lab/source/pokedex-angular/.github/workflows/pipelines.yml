@@ -1,3 +1,5 @@
+.github/workflows/azure-static-web-apps.yml
+
 name: Run test-coverage
 
 on: [push]
